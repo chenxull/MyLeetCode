@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0612fe34-c432-4b12-afc3-5968adf96865" name="Default Changelist" comment="剑指 offer45">
-      <change afterPath="$PROJECT_DIR$/2019.6.28/46/ac46_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2019.6.30/22/ac22_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019.6.30/347/347.top-k-frequent-elements.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019.6.30/347/347.top-k-frequent-elements.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

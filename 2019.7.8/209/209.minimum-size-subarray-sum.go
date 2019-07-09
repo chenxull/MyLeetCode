@@ -5,23 +5,34 @@ package problem209
  *
  * [209] Minimum Size Subarray Sum
  */
-//   滑动窗口 
+//   滑动窗口
 func minSubArrayLen(s int, nums []int) int {
 	n := len(nums)
 	// [i,j] 为滑动窗口
 	minLen, i, j, sum := n+1, 0, 0, 0
 
-	for j < n {
-		sum += nums[j]
-		j++
-		for sum >= s {
+	//  因为是求最小的长度，所以左边的索引需要不停的计算
+	for i < n {
+
+		if j < n && sum < s {
+			sum += nums[j]
+			j++
+		} else {
 			sum -= nums[i]
 			i++
-			if minLen > j-i+1 {
-				minLen = j - i + 1
-			}
 		}
-	}
 
+		if sum >= s {
+			minLen = min(minLen, j-i)
+		}
+
+	}
 	return minLen % (n + 1)
+}
+
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
 }

@@ -23,7 +23,7 @@ func intersection(nums1 []int, nums2 []int) []int {
 	}
 	return res
 }
-
+ 
 func conver2map(nums []int) map[int]bool {
 	res := make(map[int]bool, len(nums))
 

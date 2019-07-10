@@ -75,5 +75,3 @@ func reverse(head *ListNode) (h, e *ListNode) {
 	e = head
 	return
 }
-
-// 递归的实现方式

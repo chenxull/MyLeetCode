@@ -7,6 +7,8 @@ import "math"
  *
  * [279] Perfect Squares
  */
+
+//  有待深入的理解
 func numSquares(n int) int {
 	perfects := []int{}
 	for i := 1; i*i <= n; i++ {

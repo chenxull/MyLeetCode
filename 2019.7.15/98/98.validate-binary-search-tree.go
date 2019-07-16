@@ -1,12 +1,10 @@
-import "math"
+package problem98
 
-// package problem98
+import (
+	"math"
 
-// import (
-// 	"math"
-
-// 	"github.com/aQuaYi/LeetCode-in-Go/kit"
-// )
+	"github.com/aQuaYi/LeetCode-in-Go/kit"
+)
 
 /*
  * @lc app=leetcode id=98 lang=golang
@@ -21,7 +19,7 @@ import "math"
  *     Right *TreeNode
  * }
  */
-// type TreeNode = kit.TreeNode
+type TreeNode = kit.TreeNode
 
 // 思路上比较难，之前理解错了题目
 func isValidBST(root *TreeNode) bool {

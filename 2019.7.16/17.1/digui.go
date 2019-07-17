@@ -1,4 +1,6 @@
-package problem17
+package main
+
+import "fmt"
 
 /*
  * @lc app=leetcode id=17 lang=golang
@@ -30,12 +32,22 @@ func letterCombinations(digits string) []string {
 
 func helper(digits string, index int, res *[]string, cur string) {
 	if index == len(digits) {
+		fmt.Println("Get", cur, ",return")
 		*res = append(*res, cur)
 		return
 	}
 
 	temp := m[digits[index]]
 	for _, v := range temp {
+		fmt.Println("digits[", index, "]", "use", v)
 		helper(digits, index+1, res, cur+v)
 	}
+	fmt.Println("digits[", index, "]", "commplete,return")
+	return
+}
+
+func main() {
+	digits := "23"
+	res := letterCombinations(digits)
+	fmt.Println(res)
 }

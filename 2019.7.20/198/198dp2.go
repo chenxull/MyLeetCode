@@ -1,6 +1,11 @@
 package problem198
 
-func robdp2(nums []int) int {
+/*
+ * @lc app=leetcode id=198 lang=golang
+ *
+ * [198] House Robber
+ */
+func rob(nums []int) int {
 	var a, b int
 
 	for i, v := range nums {
@@ -12,3 +17,4 @@ func robdp2(nums []int) int {
 	}
 	return max(a, b)
 }
+

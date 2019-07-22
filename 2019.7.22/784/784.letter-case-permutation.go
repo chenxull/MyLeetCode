@@ -11,13 +11,21 @@ func letterCasePermutation(S string) []string {
 	}
 
 	res := []string{}
-	backtrack(S, 0, &res)
+	backtrack(S, 0, "", &res)
 	return res
 }
 
 //  直接在 S 上进行操作
-func backtrack(S string, index int, res *[]string) {
-	if index == len(S){
-		
+func backtrack(S string, index int, cur string, res *[]string) {
+	if index == len(S) {
+		*res = append(*res, cur)
+		return
+	}
+
+	for i := 0; i < len(S); i++ {
+		if '0' <= S[i] && S[i] <= '9' {
+
+		}
+
 	}
 }

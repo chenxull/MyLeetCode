@@ -37,7 +37,7 @@ func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 
 	//  dp 核心
 	for i := 1; i < m; i++ {
-		for j := 1; j < m; j++ {
+		for j := 1; j < n; j++ {
 			if obstacleGrid[i][j] == 0 {
 				dp[i][j] = dp[i-1][j] + dp[i][j-1]
 			}

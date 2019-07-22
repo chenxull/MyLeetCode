@@ -9,11 +9,15 @@ package problem28
 func strStr(haystack string, needle string) int {
 
 	hLen, nLen := len(haystack), len(needle)
-	if hLen == 0 {
+	if hLen == 0 && nLen == 0 {
 		return 0
 	}
 
-	for i := 0; i < hLen-nLen; i++ {
+	if hLen == 0 {
+		return -1
+	}
+
+	for i := 0; i <= hLen-nLen; i++ {
 		if haystack[i:i+nLen] == needle {
 			return i
 		}

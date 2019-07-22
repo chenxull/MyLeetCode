@@ -14,7 +14,7 @@ func rob(nums []int) int {
 
 // tryRob 抢劫[index...len(nums)]位置的房子
 func tryRob(nums, mem []int, index int) int {
-	if index > len(nums) {
+	if index >= len(nums) {
 		return 0
 	}
 

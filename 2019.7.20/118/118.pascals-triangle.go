@@ -17,6 +17,8 @@ func generate(numRows int) [][]int {
 	res := make([][]int, numRows)
 	res[0] = []int{1}
 
+	// 二个循环，一个控制层次数据，另一个控制在每一层上的移动
+
 	for i := 1; i < numRows; i++ {
 		temp := make([]int, i+1)
 		temp[0], temp[i] = 1, 1

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0612fe34-c432-4b12-afc3-5968adf96865" name="Default Changelist" comment="剑指 offer45" />
+    <list default="true" id="0612fe34-c432-4b12-afc3-5968adf96865" name="Default Changelist" comment="剑指 offer45">
+      <change afterPath="$PROJECT_DIR$/Concurrency/advance/handErr/example/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Concurrency/advance/pipline/base/example/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019.7.29/455/455.assign-cookies.go" beforeDir="false" afterPath="$PROJECT_DIR$/2019.7.29/455/455.assign-cookies.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,19 +16,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/fmt/print.go">
+        <entry file="file://$PROJECT_DIR$/Concurrency/advance/pipline/base/example/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="274" selection-start-line="274" selection-end-line="274" />
+            <state relative-caret-position="576">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2019.7.29/146/146.lru-cache.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2019.7.24/139/139.word-break.go">
+        <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/container/list/list.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="318">
+              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/compress/bzip2/bzip2.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6118" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/container/heap/example_intheap_test.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/runtime/chan.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9384">
+              <caret line="395" selection-start-line="395" selection-end-line="395" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/time/time.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21912">
+              <caret line="916" selection-start-line="916" selection-end-line="916" />
             </state>
           </provider>
         </entry>
@@ -31,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2019.7.24/139/ac139_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="1416">
               <caret line="64" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
@@ -49,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/sort/sort.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="7344">
               <caret line="306" selection-start-line="306" selection-end-line="306" />
             </state>
           </provider>
@@ -77,8 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/46/46.permutations_test.go" />
-        <option value="$PROJECT_DIR$/238/238.product-of-array-except-self_test.go" />
         <option value="$PROJECT_DIR$/238/238.product-of-array-except-self.go" />
         <option value="$PROJECT_DIR$/46/46.permutations.go" />
         <option value="$PROJECT_DIR$/2019.6.15/581/581.shortest-unsorted-continuous-subarray_test.go" />
@@ -128,6 +170,8 @@
         <option value="$PROJECT_DIR$/2019.7.18/90/90.subsets-ii.go" />
         <option value="$PROJECT_DIR$/2019.7.24/139/ac139_test.go" />
         <option value="$PROJECT_DIR$/2019.7.24/139/139.word-break.go" />
+        <option value="$PROJECT_DIR$/Concurrency/advance/handErr/example/main.go" />
+        <option value="$PROJECT_DIR$/Concurrency/advance/pipline/base/example/main.go" />
       </list>
     </option>
   </component>
@@ -162,6 +206,17 @@
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="2019.7.29" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="2019.7.29" type="462c0819:PsiDirectoryNode" />
+              <item name="146" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -174,6 +229,36 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Go SDK 1.12" type="20ee2d1f:SyntheticLibraryElementNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.12" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.12" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="heap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.12" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="container" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.12" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="runtime" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
@@ -181,6 +266,13 @@
               <item name="Go SDK 1.12" type="20ee2d1f:SyntheticLibraryElementNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.12" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="time" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -232,25 +324,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.Test_wordBreak in LeetCode/2019.7.24/139">
-    <configuration name="go build 216.combination-sum-iii.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/2019.7.18/216/216.combination-sum-iii.go" />
-      <package value="LeetCode" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build 40.combination-sum-ii.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/2019.7.18/40/40.combination-sum-ii.go" />
-      <package value="LeetCode" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build main.go (1)">
     <configuration name="go build 78.subsets.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -269,6 +343,24 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Concurrency/advance/handErr/example/main.go" />
+      <package value="LeetCode" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Concurrency/advance/orchannel/main.go" />
+      <package value="LeetCode" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_wordBreak in LeetCode/2019.7.24/139" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <working_directory value="$PROJECT_DIR$/2019.7.24/139" />
@@ -282,11 +374,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build main.go (1)" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Test.Test_wordBreak in LeetCode/2019.7.24/139" />
         <item itemvalue="Go Build.go build 90.subsets-ii.go" />
         <item itemvalue="Go Build.go build 78.subsets.go" />
-        <item itemvalue="Go Build.go build 216.combination-sum-iii.go" />
-        <item itemvalue="Go Build.go build 40.combination-sum-ii.go" />
       </list>
     </recent_temporary>
   </component>
@@ -326,13 +418,13 @@
     <frame x="0" y="0" width="1680" height="944" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29645476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30378973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.19486581" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.41656944" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3745624" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -417,8 +509,17 @@
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/2019.7.24/139/ac139_test.go</url>
           <line>64</line>
-          <properties />
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Concurrency/advance/orchannel/main.go</url>
+          <line>52</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/Concurrency/advance/orchannel/main.go</url>
+          <line>21</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -431,76 +532,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/internal/poll/fd_poll_runtime.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/syscall/syscall_darwin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="376" selection-start-line="376" selection-end-line="376" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/runtime/sys_darwin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/syscall/zsyscall_darwin_amd64.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="1625" selection-start-line="1625" selection-end-line="1625" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/syscall/syscall_unix.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/internal/poll/fd_mutex.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="248" selection-start-line="248" selection-end-line="248" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/internal/poll/fd_unix.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="272" selection-start-line="272" selection-end-line="272" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/os/file_unix.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="178" selection-start-line="178" selection-end-line="178" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/os/file.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="158" selection-start-line="158" selection-end-line="158" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/fmt/format.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="458" selection-start-line="458" selection-end-line="458" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/unicode/utf8/utf8.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -555,10 +586,62 @@
     <entry file="file://$PROJECT_DIR$/2019.7.18/216/216.combination-sum-iii.go" />
     <entry file="file://$PROJECT_DIR$/2019.7.18/78/78.subsets.go" />
     <entry file="file://$PROJECT_DIR$/2019.7.18/90/90.subsets-ii.go" />
+    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/runtime/asm_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="1323" column="59" selection-start-line="1323" selection-start-column="59" selection-end-line="1323" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/fmt/print.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="6384">
           <caret line="274" selection-start-line="274" selection-end-line="274" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019.7.24/139/139.word-break.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concurrency/advance/orchannel/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Concurrency/advance/handErr/example/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding>
+            <element signature="e#14#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/runtime/chan.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9384">
+          <caret line="395" selection-start-line="395" selection-end-line="395" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/time/time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21912">
+          <caret line="916" selection-start-line="916" selection-end-line="916" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019.7.24/139/ac139_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1416">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>
@@ -569,24 +652,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019.7.24/139/ac139_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/sort/sort.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="7344">
           <caret line="306" selection-start-line="306" selection-end-line="306" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2019.7.24/139/139.word-break.go">
+    <entry file="file://$PROJECT_DIR$/Concurrency/advance/pipline/base/example/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="576">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019.7.29/146/146.lru-cache.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/compress/bzip2/bzip2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6118" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/container/heap/example_intheap_test.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/container/list/list.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>

@@ -1,4 +1,4 @@
-// package problem92
+package problem92
 
 /*
  * @lc app=leetcode id=92 lang=golang
@@ -13,10 +13,10 @@
  * }
  */
 
-// type ListNode struct {
-// 	Val  int
-// 	Next *ListNode
-// }
+type ListNode struct {
+	Val  int
+	Next *ListNode
+}
 
 // 1.找到需要切割的位置，断开
 // 2.反转链表，返回需要的节点信息
@@ -68,6 +68,6 @@ func reverse(head *ListNode) (first, end *ListNode) {
 
 	first, e = reverse(head.Next)
 	e.Next = head
-	end = headls
+	end = head
 	return
 }

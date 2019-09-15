@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SemaphorExample",
+            "request": "launch",
+            "mainClass": "SemaphorExample"
+        }
+    ]
+}

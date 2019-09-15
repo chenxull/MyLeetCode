@@ -49,7 +49,6 @@ func main() {
 			break
 		} else {
 			fmt.Print(" ")
-
 		}
 	}
 }

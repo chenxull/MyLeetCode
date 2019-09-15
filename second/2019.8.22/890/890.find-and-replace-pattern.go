@@ -5,7 +5,7 @@ package problem890
  *
  * [890] Find and Replace Pattern
  */
-//  将字符串都标准化
+//  将字符串都标准化—
 func findAndReplacePattern(words []string, pattern string) []string {
 	pat := normalize(pattern)
 
